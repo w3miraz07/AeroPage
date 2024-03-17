@@ -1,0 +1,40 @@
+.download a{
+    padding: 18px 59px;
+    background-color: #EA580C;
+    border-radius: 20px;
+    color: #FFF;
+    font-family: "REM", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.icon{
+    margin-right: 27px;
+    height: 25px;
+    width: 25px;
+}
+a.nav-link{
+  font-family: "ABeeZee" sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 40px !important;
+  color: #0B0B0B;
+}
+a.nav-link:hover{
+    color: #EA580C;
+}
+
+@media(max-width:576px){
+    .download{
+      margin-top: 20px;
+    }
+    a.nav-link{
+        padding: 5px 0 !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 transparent !important;
+    }
+  }
